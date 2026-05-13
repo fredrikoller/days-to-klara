@@ -263,3 +263,6 @@ history/
 *.msp
 # JetBrains Rider
 *.sln.iml
+
+.vs/
+.vscode/
