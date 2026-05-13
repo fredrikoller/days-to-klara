@@ -2,7 +2,7 @@ param location string = resourceGroup().location
 param functionAppName string
 param storageAccountName string
 param appInsightsName string
-param runtime string = 'dotnet'
+param runtime string = 'dotnet-isolated'
 
 resource storage 'Microsoft.Storage/storageAccounts@2025-08-01' = {
   name: storageAccountName
